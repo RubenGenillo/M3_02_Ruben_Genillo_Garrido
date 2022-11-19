@@ -4,7 +4,7 @@ def main():
         lista = [4, 7, 30, 23, 5]
         lista[10]
     except IndexError:
-        return "No existe un elemento en la lista en la posicion 10"
+        return "No existe un elemento en la lista en esa posicion"
 
 if __name__ == "__main__":
     print(main())
