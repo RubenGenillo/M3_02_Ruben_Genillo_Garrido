@@ -4,7 +4,7 @@ def main():
         paises = { "españa":"español", "eeuu":"inglés", "italia":"italiano" } 
         paises["alemania"]
     except KeyError:
-        return 'No existe una clave "alemania" '
+        return 'No existe la clave introducida'
 
 if __name__ == "__main__":
     print(main())
